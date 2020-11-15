@@ -1,0 +1,5 @@
+js2py>=0.70
+coveralls>=1.5.1
+pytest>=5.3.5
+pytest-cov>=2.6.0
+tox>=3.7.0
