@@ -18,12 +18,9 @@ setup(
     description="An arbitrary-precision Decimal type for JavaScript to Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/network-tools/pingping",
+    url="https://github.com/kirankotari/decimaljs",
     author="Kiran Kumar Kotari",
     author_email="kirankotari@live.com",
-    entry_points={
-        "console_scripts": ["pingping = pingping.ping:run"],
-    },
     install_requires=reqs,
     classifiers=[
         "Development Status :: 5 - Production/Stable",
@@ -35,7 +32,7 @@ setup(
         "Programming Language :: Python :: 3.6",
         "Programming Language :: Python :: 3.7",
     ],
-    keywords="ping multi linguistic, tcp ping, web ping, http ping, l4 ping, ping over proxy",
+    keywords="decimal.js decimal decimaljs",
     packages=find_packages(where=".", exclude=["tests", "data"]),
     include_package_data=True,
 )

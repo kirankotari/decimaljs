@@ -18,6 +18,6 @@ Decimal.js -> An arbitrary-precision Decimal type for JavaScript to Python
 
 ## Author and Thanks
 
-decimaljs python module was developed by [Kiran Kumar Kotari](https://github.com/kirankotari)
+decimaljs python module was developed by [Kiran Kumar Kotari](https://github.com/kirankotari)  
 [decimal.js](https://github.com/MikeMcl/decimal.js) was developed by [Michael Mclaughlin](https://github.com/MikeMcl)
 
