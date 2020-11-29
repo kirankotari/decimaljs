@@ -14,7 +14,7 @@ with open(path.join(here, "requirements.txt"), encoding="utf-8") as f:
 
 setup(
     name="decimaljs",
-    version="1.0.0",
+    version="1.0.1",
     description="An arbitrary-precision Decimal type for JavaScript to Python",
     long_description=long_description,
     long_description_content_type="text/markdown",
