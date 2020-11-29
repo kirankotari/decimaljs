@@ -1,5 +1,5 @@
 import js2py
-import os
+from os import path
 
 
 class Singleton(type):
@@ -13,8 +13,8 @@ class Singleton(type):
 
 class Decimal(metaclass=Singleton):
     context = js2py.EvalJs()
-    path = os.path.abspath(".")
-    with open(f"{path}/decimal.js") as f:
+    here = path.abspath(path.dirname(__file__))
+    with open(f"{here}/decimal.js") as f:
         js_code = f.read()
     context.execute(js_code)
 
