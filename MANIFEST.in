@@ -2,5 +2,4 @@ include README.md
 include LICENSE
 include requirements.txt
 include requirements_dev.txt
-include decimal.js
-include decimaljs.py
+include decimaljs/decimal.js
